@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj": {}
+    "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj": {}
   },
   "projects": {
-    "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj": {
+    "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj",
         "projectName": "NetFundamentos.Common",
-        "projectPath": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\obj\\",
+        "projectPath": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,34 +65,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj": {
+    "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj",
         "projectName": "NetFundamentos",
-        "projectPath": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos\\obj\\",
+        "projectPath": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos\\NetFundamentos.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj": {
-                "projectPath": "F:\\A_Arquivos 2020_nova temporada\\A_Cursos TI\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj"
+              "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj": {
+                "projectPath": "C:\\Users\\ander\\Desktop\\texte\\tes\\NetFundamentos\\NetFundamentos.Common\\NetFundamentos.Common.csproj"
               }
             }
           }
@@ -120,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
