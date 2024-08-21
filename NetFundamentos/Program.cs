@@ -1,7 +1,106 @@
-﻿using NetFundamentos.Common.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using NetFundamentos.Common.Models;
+
+//************************************************************
+//Trabalhando com LISTAS
+Console.WriteLine ("--Trabalhando com LISTAS--");
+
+List<string> listaString1 = new List<string>();
+
+listaString1.Add("SP");
+listaString1.Add("BA");
+listaString1.Add("MS");
+listaString1.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista:{listaString1.Count}-Capacidade:{listaString1.Capacity}");
+
+listaString1.Add("SC");
+
+Console.WriteLine($"Itens na minha lista:{listaString1.Count}-Capacidade:{listaString1.Capacity}");
+
+listaString1.Remove("MS");
+
+Console.WriteLine($"Itens na minha lista:{listaString1.Count}-Capacidade:{listaString1.Capacity}");
+
+Console.WriteLine ("--LISTAS--");
+
+
+//************************************************************
+//LISTAS
+Console.WriteLine ("--Trabalhando com LISTAS--");
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MS");
+
+for(int contador=0;contador<listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição nº {contador} - {listaString[contador]}");
+}
+
+Console.WriteLine("Percorrendo Lista com ForEach");
+
+foreach(string item in listaString)
+{
+    Console.WriteLine(item);
+}
 
 
 
+Console.WriteLine ("--LISTAS--");
+//************************************************************
+//ARRAY E LISTAS
+//--------------
+int[] arrayInteiros = new int[3];
+arrayInteiros[0]=72;
+arrayInteiros[1]=64;
+arrayInteiros[2]=50;
+
+//*********************
+//Percorrendo o Array com o FOR
+Console.WriteLine("Percorrendo o Array com o FOR");
+
+for(int contador=0;contador < arrayInteiros.Length;contador++)
+{
+    Console.WriteLine($"Posição nº: {contador} - {arrayInteiros[contador]}");
+}
+
+//*********************
+//Percorrendo o Array com o FOREACH -só para ARRAY e Listas
+Console.WriteLine("Percorrendo o Array com o FOREACH");
+
+int contadorforeach=0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição nº {contadorforeach} - {valor}");
+    contadorforeach++;
+}
+
+Console.WriteLine("Percorrendo o Array com o FOREACH, sem contador");
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine(valor);
+}
+
+//************************************************************
+//ARRAY  - redimensionamento do ARRAY
+//--------------
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length*2); //redimensionar o dobro do array
+
+//************************************************************
+
+//  COPIANDO UM ARRAY PARA OUTRO
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length *2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
+//*************************************************************
+//*************************************************************
+
+Console.WriteLine ("----------------------");
 Pessoa p = new Pessoa();
 
 p.Name = "Marco";
